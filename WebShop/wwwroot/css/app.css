@@ -4,47 +4,156 @@ html, body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-a, .btn-link {
-    color: #0366d6;
+
+.beside {
+    display: flex;
+    justify-content: space-between;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #1b6ec2;
-    border-color: #1861ac;
+.text-center {
+    align-items: center;
 }
 
-.content {
-    padding-top: 1.1rem;
+.meny {
+    margin-top: 2rem;
+    width: 200px;
 }
 
-.valid.modified:not([type=checkbox]) {
-    outline: 1px solid #26b050;
-}
-
-.invalid {
-    outline: 1px solid red;
-}
-
-.validation-message {
-    color: red;
-}
-
-#blazor-error-ui {
-    background: lightyellow;
-    bottom: 0;
-    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
-    display: none;
-    left: 0;
-    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
-    position: fixed;
+.product {
     width: 100%;
-    z-index: 1000;
+    display: flex;
 }
 
-    #blazor-error-ui .dismiss {
-        cursor: pointer;
-        position: absolute;
-        right: 0.75rem;
-        top: 0.5rem;
+.pic {
+    width: 245px;
+    height: 42px;
+}
+
+.logo {
+    width: 245px;
+    height: 100px;
+}
+
+.shopbag {
+    color: deeppink;
+}
+
+.p-card {
+    background-color: deepskyblue;
+    border: 1px solid gray;
+    position: relative;
+    margin: 2px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.price {
+    /* position: absolute;
+    background-color: ivory;
+    text-align: center; */
+    /* margin: 10px 10px 10px 10px; */
+    /* height: 50px; */
+    position: absolute;
+    bottom: 1.25rem;
+    right: 3rem;
+    background-color: white;
+    opacity: 95%;
+    border-radius: 5px;
+    color: black;
+    padding: 0.625rem 1.25rem;
+    width: 70%;
+    text-align: center;
+}
+
+button {
+    border-radius: 5px;
+    background-color: rgb(235, 232, 232);
+    width: 100%;
+    border: none;
+    margin: 0.2rem;
+}
+
+.s-img {
+    width: 100%;
+}
+
+.size {
+    display: flex;
+    margin-bottom: 0.4rem;
+}
+
+.color {
+    display: flex;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+p {
+    margin: 0.2rem;
+}
+
+.my-bag {
+    text-align: center;
+}
+
+hr.new {
+    border: 2px solid black;
+    opacity: 100%;
+}
+
+.bag-item {
+    display: flex;
+}
+
+/* .bag-img{
+    background-color: blue;
+    width: 400px;
+} */
+
+.bag-info {
+    padding-left: 10px;
+    width: 600px;
+}
+
+.bag-price {
+    width: 200px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+    .bag-price p {
+        margin-top: 5rem;
+        font-size: 1.25rem;
+        font-weight: bold;
     }
+
+.bag-info-price {
+    display: flex;
+}
+
+.bag-img img {
+    width: 100px;
+}
+
+.o-summary {
+    text-align: center;
+}
+
+.summary {
+    width: 400px;
+    padding-left: 10px;
+}
+
+.summary-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout {
+    border: 3px solid black;
+    border-radius: 0%;
+}
